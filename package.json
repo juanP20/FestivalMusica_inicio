@@ -1,0 +1,31 @@
+{
+  "name": "festivalmusica_inicio",
+  "version": "1.0.0",
+  "description": "proyecto con Gulp,SASS y HTML",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/scss:build/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanP20/FestivalMusica_inicio.git"
+  },
+  "keywords": [
+    "SASS",
+    "GULP"
+  ],
+  "author": "juan pablo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juanP20/FestivalMusica_inicio/issues"
+  },
+  "homepage": "https://github.com/juanP20/FestivalMusica_inicio#readme",
+  "dependencies": {
+    "sass": "^1.62.1"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^5.1.0"
+  }
+}
